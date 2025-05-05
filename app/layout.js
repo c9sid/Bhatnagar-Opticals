@@ -17,7 +17,7 @@ export default function RootLayout({ children }) {
         className={`${montserrat.className}`}
       >
         <Navbar />
-        <main className="container mx-auto px-5 md:px-0">
+        <main className="">
           {children}
         </main>
         <Footer />
