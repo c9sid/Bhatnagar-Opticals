@@ -1,19 +1,25 @@
 import Link from 'next/link'
 import React from 'react'
+import { FaEye, FaMapPin } from "react-icons/fa";
 
 const Hero = () => {
     return (
         <section className=' bg-red-900'>
             <div className='container mx-auto h-screen flex flex-col gap-5 justify-center items-center'>
                 <div className="heading max-w-4xl">
-                    <h2 className='text-6xl text-white font-bold text-center'>See Clearly. Look Sharp. Trusted Opticals in Banda.</h2>
+                    <h2 className='text-4xl md:text-6xl text-white font-bold text-center'>See Clearly. Look Sharp. Trusted Opticals in Banda.</h2>
                 </div>
-                <div className="paragraph">
-                    <p className='text-white font-light text-xl'>Free Eye Test | Branded Glasses | Contact Lenses | Walk-ins Welcome</p>
+                <div className="paragraph px-16 md:px-0">
+                    <p className='text-white font-light text-sm md:text-xl text-center'>Free Eye Test | Branded Glasses | Contact Lenses | Walk-ins Welcome</p>
                 </div>
-                <div className="buttons">
-                    <Link href={'/'}>Get Directions</Link>
-                    <Link href={'/'}>Book Free Eye Test</Link>
+                <div className="buttons px-5 flex flex-col md:flex md:flex-row gap-3 w-full justify-center">
+                    <Link href={'/'} className='flex items-center justify-center gap-3 px-6 py-3 rounded-full bg-white text-blue-500 font-semibold'>
+                        <span>
+                            <FaMapPin />
+                        </span>
+                        <p>Get Directions</p>
+                    </Link>
+                    <Link href={'/'} className='inline-flex items-center justify-center gap-3 px-6 py-3 rounded-full bg-red-500 text-white font-semibold'><span><FaEye /></span><p>Book Free Eye Test</p></Link>
                 </div>
             </div>
         </section>
