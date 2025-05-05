@@ -1,5 +1,6 @@
 import React from 'react'
-import { FaEye } from 'react-icons/fa'
+import { FaEye, FaGlasses, FaMapPin } from 'react-icons/fa'
+import { GiAlarmClock } from "react-icons/gi";
 
 const cardData = [
     {
@@ -10,19 +11,19 @@ const cardData = [
     },
     {
         id: 2,
-        icon: <FaEye />,
+        icon: <FaGlasses />,
         title: "1000+ Styles",
         desc: "Extensive collection of sunglasses & frames",
     },
     {
         id: 3,
-        icon: <FaEye />,
+        icon: <GiAlarmClock />,
         title: "Same-Day Dispensing",
         desc: "Quick service for your convenience",
     },
     {
         id: 4,
-        icon: <FaEye />,
+        icon: <FaMapPin />,
         title: "Regional Footprint",
         desc: "Serving customers up to 80 KM radius",
     },
