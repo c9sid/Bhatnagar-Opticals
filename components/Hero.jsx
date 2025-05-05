@@ -13,13 +13,13 @@ const Hero = () => {
                     <p className='text-white font-light text-sm md:text-xl text-center'>Free Eye Test | Branded Glasses | Contact Lenses | Walk-ins Welcome</p>
                 </div>
                 <div className="buttons px-5 flex flex-col md:flex md:flex-row gap-3 w-full justify-center">
-                    <Link href={'/'} className='flex items-center justify-center gap-3 px-6 py-3 rounded-full bg-white text-blue-500 font-semibold'>
-                        <span>
+                    <Link href={'/'} className='flex items-center justify-center gap-3 px-6 py-3 rounded-full bg-white hover:bg-blue-50 text-blue-500 font-semibold transition-all duration-300'>
+                        <span className='text-red-500'>
                             <FaMapPin />
                         </span>
                         <p>Get Directions</p>
                     </Link>
-                    <Link href={'/'} className='inline-flex items-center justify-center gap-3 px-6 py-3 rounded-full bg-red-500 text-white font-semibold'><span><FaEye /></span><p>Book Free Eye Test</p></Link>
+                    <Link href={'/'} className='inline-flex items-center justify-center gap-3 px-6 py-3 rounded-full bg-red-500 hover:bg-red-600 text-white font-semibold transition-all duration-300'><span><FaEye /></span><p>Book Free Eye Test</p></Link>
                 </div>
             </div>
         </section>

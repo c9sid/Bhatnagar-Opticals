@@ -5,7 +5,7 @@ import Link from 'next/link';
 import { useState, useEffect } from 'react';
 
 export const navLinks = [
-    { id: 1, name: "Ad Locations", href: "#ad-locations" },
+    { id: 1, name: "Why Us", href: "#why-us" },
     { id: 2, name: "Ad Estimate", href: "#ad-estimate" },
     { id: 3, name: "How it Works", href: "#how-it-works" }
 ];
