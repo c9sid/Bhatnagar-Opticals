@@ -1,5 +1,6 @@
-import { HiOutlineCalculator, HiOutlineLocationMarker, HiOutlinePhone } from "react-icons/hi";
+import { HiOutlineLocationMarker, HiOutlinePhone } from "react-icons/hi";
 import Link from "next/link";
+import { FaWhatsapp } from "react-icons/fa";
 
 export default function Footer() {
     return (
@@ -36,11 +37,11 @@ export default function Footer() {
 
             {/* Bottom Bar */}
             <div className="border-t border-gray-700 mt-10 py-4 text-center text-sm text-gray-400">
-                © 2023 Bhatnagar Opticals. All rights reserved.
+                © 2025 Bhatnagar Opticals. All rights reserved.
             </div>
 
-            <div className="fixed bottom-5 right-5 z-10 flex md:hidden">
-                <Link href={"#ad-estimate"} className="inline-flex gap-2 items-center bg-blue-600 hover:bg-blue-700 text-white rounded-md px-4 py-2 shadow-sm hover:shadow-md backdrop-blur-lg hover:shadow-blue-300 hover:-translate-y-0.5 transition-all delay-100 ease-in-out"><HiOutlineCalculator /> GET ESTIMATE</Link>
+            <div className="fixed bottom-5 right-5 z-10">
+                <Link href={"https://wa.me/+919876543210"} className="inline-flex gap-2 items-center bg-green-600 hover:bg-green-700 text-white rounded-full shadow-sm hover:shadow-md backdrop-blur-lg hover:green-blue-300 hover:-translate-y-0.5 transition-all delay-100 ease-in-out p-4"><FaWhatsapp className="text-2xl" /></Link>
             </div>
         </footer>
     );
