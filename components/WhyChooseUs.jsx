@@ -37,16 +37,16 @@ const WhyChooseUs = () => {
                     <h2 className='text-center text-4xl font-bold pb-10'>Why Choose Bhatnagar Opticals?</h2>
                 </div>
                 <div className="content grid grid-cols-1 md:grid-cols-4 gap-5">
-                    {cardData.map((card) => (
-                        <div id={card.id} className="card rounded-lg shadow-md hover:shadow-xl hover:-translate-y-1 p-5 transition-all duration-300 flex flex-col items-center justify-center gap-3 border border-gray-200">
+                    {cardData.map((data) => (
+                        <div key={data.id} className="card rounded-lg shadow-md hover:shadow-xl hover:-translate-y-1 p-5 transition-all duration-300 flex flex-col items-center justify-center gap-3 border border-gray-200">
                             <div className="icon text-4xl">
-                                {card.icon}
+                                {data.icon}
                             </div>
                             <div className="title">
-                                <h3 className='text-center text-xl font-semibold'>{card.title}</h3>
+                                <h3 className='text-center text-xl font-semibold'>{data.title}</h3>
                             </div>
                             <div className="desc">
-                                <p className='text-center'>{card.desc}</p>
+                                <p className='text-center'>{data.desc}</p>
                             </div>
                         </div>
                     ))}
