@@ -34,7 +34,7 @@ const WhatWeOffer = () => {
         <section id='why-us' className='bg-gray-50 py-20 px-5 md:px-0'>
             <div className='container mx-auto'>
                 <div className="heading">
-                    <h2 className='text-center text-4xl font-bold pb-10'>What We Offer</h2>
+                    <h2 className='text-center text-3xl md:text-4xl font-bold pb-10'>What We Offer</h2>
                 </div>
                 <div className="content grid grid-cols-1 md:grid-cols-2 gap-5">
                     {cardData.map((card) => (

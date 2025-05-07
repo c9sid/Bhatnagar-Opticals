@@ -34,7 +34,7 @@ const WhyChooseUs = () => {
         <section id='why-us' className='container mx-auto py-20 px-5 md:px-0'>
             <div>
                 <div className="heading">
-                    <h2 className='text-center text-4xl font-bold pb-10'>Why Choose Bhatnagar Opticals?</h2>
+                    <h2 className='text-center text-3xl md:text-4xl font-bold pb-10'>Why Choose Bhatnagar Opticals?</h2>
                 </div>
                 <div className="content grid grid-cols-1 md:grid-cols-4 gap-5">
                     {cardData.map((data) => (

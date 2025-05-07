@@ -8,7 +8,7 @@ export default function Footer() {
             <div className="container mx-auto grid grid-cols-1 md:grid-cols-3 gap-10 pb-6">
                 {/* Contact Section */}
                 <div className="flex flex-col gap-3">
-                    <h3 className="text-2xl font-bold mb-2">Bhatnagar Opticals</h3>
+                    <h3 className="text-xl md:text-2xl font-bold mb-2">Bhatnagar Opticals</h3>
                     <p className="mb-4">
                         Your trusted eye care partner in Banda, Uttar Pradesh.
                     </p>
@@ -16,7 +16,7 @@ export default function Footer() {
 
                 {/* Quick Links */}
                 <div className="flex flex-col gap-3">
-                    <h3 className="text-2xl font-bold mb-2">Contact Us</h3>
+                    <h3 className="text-xl md:text-2xl font-bold mb-2">Contact Us</h3>
                     <div className="flex flex-col space-y-2">
                         <p className="inline-flex gap-3 items-center"><HiOutlineLocationMarker className="text-red-500 text-xl" /><a href="https://maps.google.com/">Banda, Uttar Pradesh</a></p>
                         <p className="inline-flex gap-3 items-center"><HiOutlinePhone className="text-red-500 text-xl" /><a href="tel:+919876543210">+91 98765 43210</a></p>
@@ -25,7 +25,7 @@ export default function Footer() {
 
                 {/* WhatsApp & Social */}
                 <div className="flex flex-col gap-3">
-                    <h3 className="text-2xl font-semibold mb-2">Hours</h3>
+                    <h3 className="text-xl md:text-2xl font-semibold mb-2">Hours</h3>
                     <p>
                         Monday - Saturday: 10 AM - 7 PM
                     </p>
