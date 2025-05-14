@@ -1,5 +1,11 @@
+import connectDB from '@/lib/db';
+import modelContact from '@/models/model.contact';
+// import Contact from '@/models/contact';
+
 export async function POST(req) {
     try {
+        await connectDB();
+
         const body = await req.json();
         const { name, phone, city, concern, whatsappOptIn } = body;
 
@@ -10,10 +16,15 @@ export async function POST(req) {
             });
         }
 
-        // Simulate saving to DB or sending to email
-        console.log('Form submitted:', { name, phone, city, concern, whatsappOptIn });
+        const contactEntry = await modelContact.create({
+            name,
+            phone,
+            city,
+            concern,
+            whatsappOptIn,
+        });
 
-        return new Response(JSON.stringify({ message: 'Form submitted successfully' }), {
+        return new Response(JSON.stringify({ message: 'Form submitted successfully', data: contactEntry }), {
             status: 200,
             headers: { 'Content-Type': 'application/json' },
         });
