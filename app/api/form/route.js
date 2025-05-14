@@ -1,4 +1,5 @@
 import connectDB from '@/lib/db';
+import { sendEmail } from '@/lib/sendEmail';
 import modelContact from '@/models/model.contact';
 
 export async function POST(req) {
@@ -22,6 +23,8 @@ export async function POST(req) {
             concern,
             whatsappOptIn,
         });
+
+        await sendEmail({ name, phone, city, concern, whatsappOptIn });
 
         return new Response(JSON.stringify({ message: 'Form submitted successfully', data: contactEntry }), {
             status: 200,
