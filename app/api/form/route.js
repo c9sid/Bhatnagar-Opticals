@@ -1,6 +1,5 @@
 import connectDB from '@/lib/db';
 import modelContact from '@/models/model.contact';
-// import Contact from '@/models/contact';
 
 export async function POST(req) {
     try {
