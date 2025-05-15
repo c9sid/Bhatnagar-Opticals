@@ -26,7 +26,7 @@ const Form = () => {
         setStatus('Submitting...');
 
         try {
-            const res = await fetch('https://bhatnagar-opticals.vercel.app/api/form', {
+            const res = await fetch('/api/form', {
                 method: 'POST',
                 headers: { 'Content-Type': 'application/json' },
                 body: JSON.stringify(form),
@@ -130,7 +130,7 @@ const Form = () => {
 
                     <button
                         type="submit"
-                        className="w-full bg-red-500 hover:bg-red-600 text-white font-semibold py-3 rounded-full shadow-md transition duration-200"
+                        className="w-full bg-orange-500 hover:bg-orange-600 active:scale-95 active:bg-orange-600 text-white font-semibold py-3 rounded-full shadow-md transition duration-200"
                     >
                         Get Callback
                     </button>

@@ -38,7 +38,7 @@ const WhatWeOffer = () => {
                 </div>
                 <div className="content grid grid-cols-1 md:grid-cols-2 gap-5">
                     {cardData.map((card) => (
-                        <div key={card.id} className="card bg-white rounded-lg shadow-md p-5 flex flex-col items-start justify-center gap-3 border border-gray-200">
+                        <div key={card.id} className="card bg-white active:bg-orange-50 active:rounded-2xl active:scale-105 transition-all duration-300 rounded-lg shadow-md p-5 flex flex-col items-start justify-center gap-3 border border-gray-200">
                             <div className='flex gap-5'>
                                 <div className="icon text-4xl">
                                     {card.icon}

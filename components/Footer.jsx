@@ -18,8 +18,8 @@ export default function Footer() {
                 <div className="flex flex-col gap-3">
                     <h3 className="text-xl md:text-2xl font-bold mb-2">Contact Us</h3>
                     <div className="flex flex-col space-y-2">
-                        <p className="inline-flex gap-3 items-center"><HiOutlineLocationMarker className="text-red-500 text-xl" /><a href="https://maps.google.com/">Banda, Uttar Pradesh</a></p>
-                        <p className="inline-flex gap-3 items-center"><HiOutlinePhone className="text-red-500 text-xl" /><a href="tel:+919876543210">+91 98765 43210</a></p>
+                        <p className="inline-flex gap-3 items-center"><HiOutlineLocationMarker className="text-orange-500 text-xl" /><a href="https://maps.google.com/">Banda, Uttar Pradesh</a></p>
+                        <p className="inline-flex gap-3 items-center"><HiOutlinePhone className="text-orange-500 text-xl" /><a href="tel:+919876543210">+91 98765 43210</a></p>
                     </div>
                 </div>
 
@@ -41,7 +41,7 @@ export default function Footer() {
             </div>
 
             <div className="fixed bottom-5 right-5 z-10">
-                <Link href={"https://wa.me/+919876543210"} className="inline-flex gap-2 items-center bg-green-600 hover:bg-green-700 text-white rounded-full shadow-sm hover:shadow-md backdrop-blur-lg hover:green-blue-300 hover:-translate-y-0.5 transition-all delay-100 ease-in-out p-4"><FaWhatsapp className="text-2xl" /></Link>
+                <Link href={"https://wa.me/+919919119899"} className="inline-flex gap-2 items-center bg-green-600 hover:bg-green-700 active:bg-green-700 active:scale-95 text-white rounded-full shadow-sm hover:shadow-md backdrop-blur-lg hover:green-blue-300 hover:-translate-y-0.5 transition-all delay-100 ease-in-out p-4"><FaWhatsapp className="text-2xl" /></Link>
             </div>
         </footer>
     );

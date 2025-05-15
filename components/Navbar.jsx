@@ -49,7 +49,7 @@ const Navbar = () => {
             <div className="container mx-auto flex justify-between items-center px-5">
                 <div className="logo">
                     <Link href='/' className='text-blue-500 font-bold text-2xl'>
-                        Bhatnagar<span className='text-yellow-400'>Opticals</span>
+                        Bhatnagar<span className='text-orange-400'>Opticals</span>
                     </Link>
                 </div>
 
@@ -86,7 +86,7 @@ const Navbar = () => {
                             href={nav.href}
                             onClick={() => setIsOpen(false)}
                             className={`transition-colors duration-300 ${activeSection === nav.href ? "text-blue-500" : ""
-                                } hover:text-blue-500 text-black`}
+                                } hover:text-blue-500 active:text-blue-500 text-black`}
                         >
                             {nav.name}
                         </Link>

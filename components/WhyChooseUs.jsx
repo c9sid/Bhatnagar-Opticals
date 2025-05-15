@@ -38,7 +38,7 @@ const WhyChooseUs = () => {
                 </div>
                 <div className="content grid grid-cols-1 md:grid-cols-4 gap-5">
                     {cardData.map((data) => (
-                        <div key={data.id} className="card rounded-lg shadow-md hover:shadow-xl hover:-translate-y-1 p-5 transition-all duration-300 flex flex-col items-center justify-center gap-3 border border-gray-200">
+                        <div key={data.id} className="card active:bg-orange-50 active:rounded-2xl active:scale-105 focus:bg-orange-50 rounded-lg shadow-md hover:shadow-xl hover:-translate-y-1 p-5 transition-all duration-300 flex flex-col items-center justify-center gap-3 border border-gray-200">
                             <div className="icon text-4xl">
                                 {data.icon}
                             </div>

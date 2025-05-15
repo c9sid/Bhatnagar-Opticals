@@ -34,7 +34,7 @@ const Customers = () => {
                 </div>
                 <div className="content grid grid-cols-1 md:grid-cols-3 gap-5">
                     {customersData.map((card) => (
-                        <div key={card.id} className='card bg-white p-5 rounded-lg flex flex-col gap-3 shadow-md hover:shadow-lg hover:-translate-y-1 transition-all duration-300'>
+                        <div key={card.id} className='card bg-white active:bg-orange-50 active:rounded-2xl active:scale-105 p-5 rounded-lg flex flex-col gap-3 shadow-md hover:shadow-lg hover:-translate-y-1 transition-all duration-300'>
                             <div className="star flex gap-1">
                                 <FaStar className='text-yellow-500' />
                                 <FaStar className='text-yellow-500' />
