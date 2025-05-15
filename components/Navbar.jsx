@@ -1,6 +1,7 @@
 'use client';
 
 import { Menu, X } from 'lucide-react';
+import Image from 'next/image';
 import Link from 'next/link';
 import { useState, useEffect, useRef } from 'react';
 
@@ -65,8 +66,8 @@ const Navbar = () => {
         >
             <div className="container mx-auto flex justify-between items-center px-5">
                 <div className="logo">
-                    <Link href='/' className='text-blue-500 font-bold text-2xl'>
-                        Bhatnagar<span className='text-orange-400'>Opticals</span>
+                    <Link href='/' className='bg-white'>
+                        <Image className='bg-white p-2 rounded-md' src={'/Bhatnagar_Opticals_logo.png'} width={200} height={40} alt='Bhatnagar_Opticals_Logo' priority />
                     </Link>
                 </div>
 
