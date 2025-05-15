@@ -46,7 +46,7 @@ const Form = () => {
 
     return (
         <div id='book-now' className="py-20 flex flex-col items-center justify-center bg-gray-100 px-4">
-            <h1 className="text-3xl md:text-4xl font-bold text-center mb-8">
+            <h1 className="text-2xl md:text-4xl font-bold text-center mb-8">
                 Book Your Free Eye Test or Ask a Question
             </h1>
             <div className="bg-white shadow-md rounded-lg p-8 w-full max-w-lg">

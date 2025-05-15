@@ -5,7 +5,7 @@ import { IoCall } from 'react-icons/io5'
 const FindUs = () => {
     return (
         <section id='find-us' className='py-20'>
-            <h2 className='text-center text-3xl md:text-4xl font-bold pb-10'>Find Us</h2>
+            <h2 className='text-center text-2xl md:text-4xl font-bold pb-10'>Find Us</h2>
             <div className='block md:flex gap-10 space-y-5 md:space-y-0 items-center justify-between container mx-auto px-5 md:px-0'>
                 <div className="left map">
                     <iframe className='rounded-lg w-full md:w-3xl h-72 bg-gray-100' src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3601.9650909172074!2d80.33686019999999!3d25.4728411!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x399cceef5c800477%3A0x9735b3eb1b74646e!2sBhatnagar%20Opticals%20Banda!5e0!3m2!1sen!2sin!4v1747325112711!5m2!1sen!2sin" style={{ border: 0 }} loading="lazy" referrerPolicy="no-referrer-when-downgrade" allowFullScreen=""></iframe>

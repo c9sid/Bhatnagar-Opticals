@@ -5,10 +5,10 @@ const Brands = () => {
         <section className='py-20'>
             <div className='container mx-auto'>
                 <div>
-                    <h2 className='text-3xl md:text-4xl font-bold text-center'>Trusted Brands</h2>
+                    <h2 className='text-2xl md:text-4xl font-bold text-center'>Trusted Brands</h2>
                 </div>
                 <marquee behavior="smooth" direction="left">
-                    <div className="brand flex gap-16 text-lg md:text-xl font-semibold py-10">
+                    <div className="brand flex gap-16 text-base md:text-xl font-semibold py-10">
                         <div className='rounded-lg bg-gray-100 p-5'>
                             <p>Ray-Ban</p>
                         </div>
@@ -33,7 +33,7 @@ const Brands = () => {
                     </div>
                 </marquee>
                 <div>
-                    <h4 className='text-center'>All Top Brands Available at One Stop</h4>
+                    <h4 className='text-center text-sm md:text-base'>All Top Brands Available at One Stop</h4>
                 </div>
             </div>
         </section>
