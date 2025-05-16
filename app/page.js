@@ -5,12 +5,14 @@ import Form from "@/components/Form";
 import Hero from "@/components/Hero";
 import WhatWeOffer from "@/components/WhatWeOffer";
 import WhyChooseUs from "@/components/WhyChooseUs";
+import About from "../components/About";
 
 export default function Home() {
   return (
     <>
       <Hero />
       <WhyChooseUs />
+      <About />
       <WhatWeOffer />
       <Brands />
       <Customers />
