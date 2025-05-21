@@ -6,14 +6,14 @@ const cardData = [
     {
         id: 1,
         icon: <FaEye />,
-        title: "Computerized Eye Testing",
-        desc: "Advanced technology for accurate vision assessment",
+        title: "AI Based Eye Examination",
+        desc: "AI based eye examination and hi-tech optometry care unit",
     },
     {
         id: 2,
         icon: <IoGlassesSharp />,
-        title: "Prescription Spectacles",
-        desc: "Custom-made glasses for your unique vision needs",
+        title: "Prescription Prescription Eyewear & Sunglasses",
+        desc: "You may choose your colour with your choice with your power",
     },
     {
         id: 3,

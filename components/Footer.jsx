@@ -19,7 +19,7 @@ export default function Footer() {
                     <h3 className="text-xl md:text-2xl font-bold mb-2">Contact Us</h3>
                     <div className="flex flex-col space-y-2">
                         <p className="inline-flex gap-3 items-center"><HiOutlineLocationMarker className="text-orange-500 text-xl" /><a href="https://maps.google.com/">Banda, Uttar Pradesh</a></p>
-                        <p className="inline-flex gap-3 items-center"><HiOutlinePhone className="text-orange-500 text-xl" /><a href="tel:+919876543210">+91 98765 43210</a></p>
+                        <p className="inline-flex gap-3 items-center"><HiOutlinePhone className="text-orange-500 text-xl" /><a href="tel:+919919302774">+91 9919302774</a></p>
                     </div>
                 </div>
 
@@ -27,10 +27,10 @@ export default function Footer() {
                 <div className="flex flex-col gap-3">
                     <h3 className="text-xl md:text-2xl font-semibold mb-2">Hours</h3>
                     <p>
-                        Monday - Saturday: 10 AM - 7 PM
+                        Wednesday - Monday: 10 AM - 8:30 PM
                     </p>
                     <p>
-                        Sunday: 11 AM - 5 PM
+                        Tuesday - Closed
                     </p>
                 </div>
             </div>
