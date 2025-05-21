@@ -1,3 +1,4 @@
+import Image from 'next/image'
 import React from 'react'
 
 const Brands = () => {
@@ -8,27 +9,27 @@ const Brands = () => {
                     <h2 className='text-2xl md:text-4xl font-bold text-center'>Trusted Brands</h2>
                 </div>
                 <marquee behavior="smooth" direction="left">
-                    <div className="brand flex gap-16 text-base md:text-xl font-semibold py-10">
-                        <div className='rounded-lg bg-gray-100 p-5'>
-                            <p>Ray-Ban</p>
+                    <div className="brand flex gap-16 py-10">
+                        <div>
+                            <Image src={'/logo/Ray-Ban.png'} width={200} height={50} alt='Ray-Ban Logo' />
                         </div>
-                        <div className='rounded-lg bg-gray-100 p-5'>
-                            <p>Titan Eye+</p>
+                        <div>
+                            <Image src={'/logo/tital-eye-plus.png'} width={200} height={50} alt='Titan Eye Plus Logo' />
                         </div>
-                        <div className='rounded-lg bg-gray-100 p-5'>
-                            <p>Johnson & Johnson</p>
+                        <div>
+                            <Image src={'/logo/Johnson-and-Johnson.png'} width={200} height={50} alt='Johnson and Johnson Logo' />
                         </div>
-                        <div className='rounded-lg bg-gray-100 p-5'>
-                            <p>Bausch + Lomb</p>
+                        <div>
+                            <Image src={'/logo/bausch-plus-lomb.png'} width={200} height={50} alt='Bausch Plus Lomb Logo' />
                         </div>
-                        <div className='rounded-lg bg-gray-100 p-5'>
-                            <p>Scott</p>
+                        <div>
+                            <Image src={'/logo/scott.png'} width={200} height={50} alt='Scott Logo' />
                         </div>
-                        <div className='rounded-lg bg-gray-100 p-5'>
-                            <p>Freshlook</p>
+                        <div>
+                            <Image src={'/logo/freshlook.png'} width={200} height={50} alt='Freshlook Logo' />
                         </div>
-                        <div className='rounded-lg bg-gray-100 p-5'>
-                            <p>Vogue</p>
+                        <div>
+                            <Image src={'/logo/vogue.png'} width={200} height={50} alt='Vogue Logo' />
                         </div>
                     </div>
                 </marquee>
