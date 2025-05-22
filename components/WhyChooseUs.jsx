@@ -6,7 +6,7 @@ const cardData = [
     {
         id: 1,
         icon: <FaEye />,
-        title: "Certified Optometrists",
+        title: "3rd Generation Optometrists",
         desc: "Professional eye care from qualified experts",
     },
     {
