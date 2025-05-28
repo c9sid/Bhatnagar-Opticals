@@ -30,7 +30,7 @@ export default function Footer() {
                         Wednesday - Monday: 10 AM - 8:30 PM
                     </p>
                     <p>
-                        Tuesday - Closed
+                        Tuesday - Close
                     </p>
                 </div>
             </div>

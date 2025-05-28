@@ -1,14 +1,22 @@
-import Image from 'next/image'
 import React from 'react'
 
 const logos = [
     { src: "/logo/Ray-Ban.png", alt: "Ray-Ban Logo" },
-    { src: "/logo/tital-eye-plus.png", alt: "Titan Eye Plus Logo" },
-    { src: "/logo/Johnson-and-Johnson.png", alt: "Johnson and Johnson Logo" },
-    { src: "/logo/bausch-plus-lomb.png", alt: "Bausch Plus Lomb Logo" },
     { src: "/logo/scott.png", alt: "Scott Logo" },
-    { src: "/logo/freshlook.png", alt: "Freshlook Logo" },
-    { src: "/logo/vogue.png", alt: "Vogue Logo" }
+    { src: "/logo/Boss.png", alt: "Boss Logo" },
+    { src: "/logo/Carrera.png", alt: "Carrera Logo" },
+    { src: "/logo/Essilor.png", alt: "Essilor Logo" },
+    { src: "/logo/French Connection.png", alt: "French Connection Logo" },
+    { src: "/logo/Idee.png", alt: "Idee Logo" },
+    { src: "/logo/Kodak.png", alt: "Kodak Logo" },
+    { src: "/logo/Lee Copper.png", alt: "Lee Copper Logo" },
+    { src: "/logo/Mont Blanc.png", alt: "Mont Blanc Logo" },
+    { src: "/logo/Nike.png", alt: "Nike Logo" },
+    { src: "/logo/Nikon.png", alt: "Nikon Logo" },
+    { src: "/logo/Opium.png", alt: "ScoOpiumtt Logo" },
+    { src: "/logo/Scavin.png", alt: "Scavin Logo" },
+    { src: "/logo/Tommy Hilfiger.png", alt: "Tommy Hilfiger Logo" },
+    { src: "/logo/Zeiss.png", alt: "Zeiss Logo" },
 ];
 
 

@@ -12,8 +12,8 @@ const cardData = [
     {
         id: 2,
         icon: <IoGlassesSharp />,
-        title: "Prescription Prescription Eyewear & Sunglasses",
-        desc: "You may choose your colour with your choice with your power",
+        title: "Prescription Eyewear & Sunglasses",
+        desc: "Prescription spectacles and Sunglass customization with your power and choice of color.",
     },
     {
         id: 3,
