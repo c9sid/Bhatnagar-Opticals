@@ -7,8 +7,9 @@ import { useState, useEffect, useRef } from 'react';
 
 export const navLinks = [
     { id: 1, name: "Why Us", href: "#why-us" },
-    { id: 2, name: "Testimonials", href: "#customers" },
-    { id: 3, name: "Book Now", href: "#book-now" }
+    { id: 2, name: "About Us", href: "#about" },
+    { id: 3, name: "Testimonials", href: "#customers" },
+    { id: 4, name: "Book Now", href: "#book-now" }
 ];
 
 const Navbar = () => {
