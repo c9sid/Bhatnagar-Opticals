@@ -4,7 +4,14 @@ import { FaEye, FaMapPin } from "react-icons/fa";
 
 const Hero = () => {
     return (
-        <section className=' bg-orange-800'>
+        <section className=' bg-orange-800/95'>
+            {/* Background watermark logo */}
+            <div
+                className="absolute inset-0 bg-center bg-no-repeat bg-contain opacity-100 -z-10"
+                style={{ backgroundImage: "url('/Bhatnagar_Opticals_logo.png')" }}
+            ></div>
+
+            {/* Content */}
             <div className='container mx-auto h-screen flex flex-col gap-5 justify-center items-center'>
                 <div className="heading max-w-4xl">
                     <h2 className='text-4xl md:text-6xl text-white font-bold text-center'>See Clearly. Look Sharp. Trusted Opticals in Banda.</h2>
