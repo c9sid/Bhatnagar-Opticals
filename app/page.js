@@ -6,6 +6,7 @@ import Hero from "@/components/Hero";
 import WhatWeOffer from "@/components/WhatWeOffer";
 import WhyChooseUs from "@/components/WhyChooseUs";
 import About from "../components/About";
+import Gallery from "@/components/Gallery";
 
 export default function Home() {
   return (
@@ -13,6 +14,7 @@ export default function Home() {
       <Hero />
       <WhyChooseUs />
       <About />
+      <Gallery />
       <WhatWeOffer />
       <Brands />
       <Customers />
